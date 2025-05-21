@@ -9,12 +9,12 @@ int main() {
 
     // Validate input
     if (n < 0) {
-        printf("Factorial of a negative number doesn't exist.\n");
+        printf("Invalid");
     } else {
         // TODO: Write a loop to compute factorial
         // Your code here
 
-        printf("%llu\n", factorial);
+        printf("%llu", factorial);
     }
 
     return 0;
