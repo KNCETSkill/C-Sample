@@ -5,7 +5,6 @@ int main() {
     int n, i;
     unsigned long long factorial = 1;
 
-    printf("Enter a positive integer: ");
     scanf("%d", &n);
 
     // Validate input
@@ -15,7 +14,7 @@ int main() {
         // TODO: Write a loop to compute factorial
         // Your code here
 
-        printf("Factorial of %d = %llu\n", n, factorial);
+        printf("%llu\n", factorial);
     }
 
     return 0;
